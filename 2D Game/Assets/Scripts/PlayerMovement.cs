@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 40f;
     bool jump = false;
     bool crouch = false;
+    public GameObject Player;
+    public GameManager GM;
 
     // Update is called once per frame
     void Update()
@@ -33,5 +35,16 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
         
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("DeathZone"))
+        {
+            print("Dead");
+            transform.position = GM.spawnPoint.transform.position;
+
+         
+        }
+       
     }
 }
