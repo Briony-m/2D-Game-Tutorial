@@ -41,10 +41,20 @@ public class PlayerMovement : MonoBehaviour
         if (collision.collider.CompareTag("DeathZone"))
         {
             print("Dead");
-            transform.position = GM.spawnPoint.transform.position;
-
+            
+            StartCoroutine(MovePlayer());
          
         }
        
     }
-}
+    IEnumerator MovePlayer()
+    {
+        yield return new WaitForSeconds(0.7f);
+        transform.position = GM.spawnPoint.transform.position;
+    }
+
+
+    }
+
+
+
