@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     bool crouch = false;
     public GameObject Player;
     public GameManager GM;
+    
 
     // Update is called once per frame
     void Update()
@@ -41,17 +42,15 @@ public class PlayerMovement : MonoBehaviour
         if (collision.collider.CompareTag("DeathZone"))
         {
             print("Dead");
-            
-            StartCoroutine(MovePlayer());
-         
+            GM.Respawn();
+            //transform.position = GM.spawnPoint.transform.position;
+
+
         }
+
+    }
        
-    }
-    IEnumerator MovePlayer()
-    {
-        yield return new WaitForSeconds(0.7f);
-        transform.position = GM.spawnPoint.transform.position;
-    }
+    
 
 
     }
