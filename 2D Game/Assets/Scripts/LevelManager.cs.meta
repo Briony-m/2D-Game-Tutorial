@@ -1,13 +1,11 @@
 fileFormatVersion: 2
-guid: 540e3d10cf9b31d4faeb9575ccd183ef
+guid: 5fbf519e65e38e949aa6c272f847da49
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - spawnPoint: {fileID: 7225214552067209585, guid: d4bb03b357f10524fb04817b4c7b1ff3,
-      type: 3}
   - Player: {instanceID: 0}
-  - bullet: {fileID: 4671341761015800690, guid: dd5d54698835acd43906e88974d8c2dd,
+  - hasKey: {fileID: 8771996274656149137, guid: 22ae9d4e87453f640b463e3961cf495d,
       type: 3}
   executionOrder: 0
   icon: {instanceID: 0}

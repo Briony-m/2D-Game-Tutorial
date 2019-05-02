@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     bool crouch = false;
     public GameObject Player;
     public GameManager GM;
+    public bool hasKey = false; //
     
 
     // Update is called once per frame
@@ -42,18 +43,27 @@ public class PlayerMovement : MonoBehaviour
         if (collision.collider.CompareTag("DeathZone"))
         {
             print("Dead");
-            GM.Respawn();
+            GM.Respawn();  //starts couroutine in Game Manager script, delays transform.position to spawnpoint
             //transform.position = GM.spawnPoint.transform.position;
 
 
         }
 
     }
-       
-    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
 
-
+        if (other.gameObject.CompareTag("Pickup"))
+        {
+            other.gameObject.SetActive(false);
+            hasKey = true;
+        }
+        
     }
+
+
+
+}
 
 
 

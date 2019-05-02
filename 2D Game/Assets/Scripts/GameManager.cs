@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject spawnPoint;
     public float respawnDelay;
     public PlayerMovement Player;
+    public Bullet bullet;
 
     void Start()
     {
@@ -33,4 +34,10 @@ public class GameManager : MonoBehaviour
        // gamePlayer.transform.position = gamePlayer.spawnPoint;
         Player.gameObject.SetActive(true);
     }
+
+   
+
+
+
+
 }

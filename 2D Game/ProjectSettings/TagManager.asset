@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Background
   - DeathZone
+  - Pickup
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - Triggers
   - 
   - 
   - 
@@ -42,6 +44,9 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 2562229573
+    locked: 0
+  - name: Deathzone
+    uniqueID: 1721883989
     locked: 0
   - name: Default
     uniqueID: 0
