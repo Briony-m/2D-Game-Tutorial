@@ -42,7 +42,7 @@ public class TurretAI : MonoBehaviour
         {
             lookingRight = false;
         }
-        if (target.transform.position.x > transform.position.x)
+        if (target.transform.position.x < transform.position.x)
         {
             lookingRight = true;
         }
@@ -72,7 +72,7 @@ public class TurretAI : MonoBehaviour
             Vector2 direction = target.transform.position - transform.position;
             direction.Normalize();
 
-            if (!AttackingRight)
+            if (AttackingRight)
             {
                 GameObject bulletClone;
                 bulletClone = Instantiate(bullet, shootPointLeft.transform.position, shootPointLeft.transform.rotation) as GameObject;

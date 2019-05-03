@@ -181,6 +181,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4671341761015800690, guid: dd5d54698835acd43906e88974d8c2dd,
+        type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 327583089}
     - target: {fileID: 8534985766867344075, guid: dd5d54698835acd43906e88974d8c2dd,
         type: 3}
       propertyPath: m_Name
@@ -256,11 +261,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.3083
       objectReference: {fileID: 0}
-    - target: {fileID: 4671341761015800690, guid: dd5d54698835acd43906e88974d8c2dd,
-        type: 3}
-      propertyPath: GM
-      value: 
-      objectReference: {fileID: 327583089}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd5d54698835acd43906e88974d8c2dd, type: 3}
 --- !u!1 &327583088
@@ -310,6 +310,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &340815553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8771996274656149137, guid: 22ae9d4e87453f640b463e3961cf495d,
+    type: 3}
+  m_PrefabInstance: {fileID: 8771996275551831984}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &384645401
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,7 +1336,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1441200496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.8, y: -1.84, z: 0}
+  m_LocalPosition: {x: 7.82, y: -1.87, z: 0}
   m_LocalScale: {x: 3.7786102, y: 3.7786102, z: 3.7786102}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1349,8 +1355,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadLevel: Level 2
-  Player: {fileID: 0}
-  hasKey: {fileID: 0}
+  Player: {fileID: 857532856}
+  hasKey: {fileID: 340815553}
 --- !u!1001 &1491052271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1911,6 +1917,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 160720672, guid: 1b28b84232d645046998e437eaa61850, type: 3}
+      propertyPath: m_TagString
+      value: TurretRange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234854568, guid: 1b28b84232d645046998e437eaa61850, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2875
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b28b84232d645046998e437eaa61850, type: 3}
 --- !u!4 &3743097724887640025 stripped
@@ -1934,7 +1948,7 @@ PrefabInstance:
     - target: {fileID: 4769797395858450630, guid: 89f61e61f7a6aeb409288dea0380ad3f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.44
+      value: -6.12
       objectReference: {fileID: 0}
     - target: {fileID: 4769797395858450630, guid: 89f61e61f7a6aeb409288dea0380ad3f,
         type: 3}

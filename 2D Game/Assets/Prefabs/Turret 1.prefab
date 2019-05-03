@@ -378,8 +378,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b59d259a58b0c419940d0aa6aefded, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 0
-  maxHealth: 0
   distance: 8
   idleRange: 0
   shootInterval: 0.7

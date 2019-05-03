@@ -13,9 +13,11 @@ public class Bullet : MonoBehaviour
             {
                 print("Dead");
                 col.GetComponent<PlayerMovement>().GM.Respawn();
+                Destroy(gameObject);
             }
+
                
-            Destroy(gameObject);
+            
         }
 
 

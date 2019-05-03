@@ -16,9 +16,15 @@ public class LevelManager : MonoBehaviour
         
         if (collision.CompareTag("Player"))
         {
-           // bool hasKey = true;
+            if (Player.hasKey)
+            {
+                SceneManager.LoadScene(loadLevel);
+
+            }
+            
+            // bool hasKey = true;
             //When player collides with door check if bool is true, then 
-            SceneManager.LoadScene(loadLevel);
+           
            
 
         }
@@ -28,6 +34,11 @@ public class LevelManager : MonoBehaviour
       //  }
     }
 
+
+    void Start()
+    {
+        Player = FindObjectOfType<PlayerMovement>();
+    }
 
 
 
