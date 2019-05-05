@@ -9,6 +9,7 @@ TagManager:
   - Pickup
   - Door
   - TurretRange
+  - Colliders
   layers:
   - Default
   - TransparentFX

@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 219359541}
   m_Layer: 0
   m_Name: Dirt (1)
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,6 +329,63 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1884293132}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &319513356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 319513357}
+  - component: {fileID: 319513358}
+  m_Layer: 0
+  m_Name: FloorColliders
+  m_TagString: Colliders
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &319513357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319513356}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.1791759, y: -3.3347616, z: 0.078330435}
+  m_LocalScale: {x: 19.413, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1714790900}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &319513358
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319513356}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &364660852
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,7 +399,7 @@ GameObject:
   - component: {fileID: 364660853}
   m_Layer: 0
   m_Name: GrassHillLeft (2)
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -451,6 +508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -552,7 +614,7 @@ GameObject:
   - component: {fileID: 428991829}
   m_Layer: 0
   m_Name: Dirt
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -985,6 +1047,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Startpoint (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1074898978212835857, guid: fae819bdf3b3a564c9362d0f1137e0e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 1074898978212835856, guid: fae819bdf3b3a564c9362d0f1137e0e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1135,7 +1202,7 @@ GameObject:
   - component: {fileID: 841187796}
   m_Layer: 0
   m_Name: GrassHillRight
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1250,6 +1317,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1355,7 +1427,7 @@ GameObject:
   - component: {fileID: 996097392}
   m_Layer: 0
   m_Name: Platforms
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1392,6 +1464,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1062682155 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8771996274656149137, guid: 22ae9d4e87453f640b463e3961cf495d,
+    type: 3}
+  m_PrefabInstance: {fileID: 524705225}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1078827057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1404,7 +1482,7 @@ GameObject:
   - component: {fileID: 1078827059}
   m_Layer: 0
   m_Name: LeftWall
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1575,6 +1653,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1673,6 +1756,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
       objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
@@ -1841,6 +1929,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Startpoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074898978212835857, guid: fae819bdf3b3a564c9362d0f1137e0e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
       objectReference: {fileID: 0}
     - target: {fileID: 1074898978212835856, guid: fae819bdf3b3a564c9362d0f1137e0e3,
         type: 3}
@@ -2062,7 +2155,7 @@ GameObject:
   - component: {fileID: 1433917742}
   m_Layer: 0
   m_Name: RightWall
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2118,6 +2211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
       objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
@@ -2208,6 +2306,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: door
       objectReference: {fileID: 0}
+    - target: {fileID: 1961614599460425359, guid: 86d984e627598304db93fc3ed27e2e48,
+        type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
     - target: {fileID: 1961614599460425356, guid: 86d984e627598304db93fc3ed27e2e48,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2278,6 +2381,16 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.7779361
       objectReference: {fileID: 0}
+    - target: {fileID: 1961614599460425355, guid: 86d984e627598304db93fc3ed27e2e48,
+        type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1318571969}
+    - target: {fileID: 1961614599460425355, guid: 86d984e627598304db93fc3ed27e2e48,
+        type: 3}
+      propertyPath: hasKey
+      value: 
+      objectReference: {fileID: 1062682155}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86d984e627598304db93fc3ed27e2e48, type: 3}
 --- !u!1001 &1711820815
@@ -2297,11 +2410,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1478419149, guid: 1b28b84232d645046998e437eaa61850, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.3
+      value: -8.07
       objectReference: {fileID: 0}
     - target: {fileID: 1478419149, guid: 1b28b84232d645046998e437eaa61850, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.68
+      value: 4.23
       objectReference: {fileID: 0}
     - target: {fileID: 1478419149, guid: 1b28b84232d645046998e437eaa61850, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2343,6 +2456,14 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 948376281}
+    - target: {fileID: 1478419151, guid: 1b28b84232d645046998e437eaa61850, type: 3}
+      propertyPath: shootInterval
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478419151, guid: 1b28b84232d645046998e437eaa61850, type: 3}
+      propertyPath: bulletSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 136076681, guid: 1b28b84232d645046998e437eaa61850, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -2366,6 +2487,14 @@ PrefabInstance:
     - target: {fileID: 136076682, guid: 1b28b84232d645046998e437eaa61850, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234854568, guid: 1b28b84232d645046998e437eaa61850, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.4117856
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234854568, guid: 1b28b84232d645046998e437eaa61850, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b28b84232d645046998e437eaa61850, type: 3}
@@ -2398,6 +2527,7 @@ Transform:
   m_Children:
   - {fileID: 1078827058}
   - {fileID: 1433917741}
+  - {fileID: 319513357}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2494,7 +2624,7 @@ GameObject:
   - component: {fileID: 1827015244}
   m_Layer: 0
   m_Name: GrassHillLeft
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2604,7 +2734,7 @@ GameObject:
   - component: {fileID: 1844986975}
   m_Layer: 0
   m_Name: GrassHillLeft (1)
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2787,6 +2917,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2882,7 +3017,7 @@ GameObject:
   - component: {fileID: 1986228181}
   m_Layer: 0
   m_Name: GrassHillLeft2 (1)
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3066,6 +3201,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3161,7 +3301,7 @@ GameObject:
   - component: {fileID: 2054049532}
   m_Layer: 0
   m_Name: GrassHillLeft (3)
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3273,12 +3413,12 @@ PrefabInstance:
     - target: {fileID: 4769797395858450630, guid: 89f61e61f7a6aeb409288dea0380ad3f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.27
+      value: -7.45
       objectReference: {fileID: 0}
     - target: {fileID: 4769797395858450630, guid: 89f61e61f7a6aeb409288dea0380ad3f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.39
+      value: -1.04
       objectReference: {fileID: 0}
     - target: {fileID: 4769797395858450630, guid: 89f61e61f7a6aeb409288dea0380ad3f,
         type: 3}
@@ -3345,7 +3485,7 @@ GameObject:
   - component: {fileID: 2089550956}
   m_Layer: 0
   m_Name: GrassHillLeft2
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

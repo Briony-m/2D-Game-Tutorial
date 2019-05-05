@@ -166,6 +166,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -317,6 +322,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
       objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
@@ -676,6 +686,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -781,6 +796,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -875,6 +895,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Startpoint (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1074898978212835857, guid: fae819bdf3b3a564c9362d0f1137e0e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
       objectReference: {fileID: 0}
     - target: {fileID: 1074898978212835856, guid: fae819bdf3b3a564c9362d0f1137e0e3,
         type: 3}
@@ -1312,6 +1337,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1401,6 +1431,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1489,7 +1524,7 @@ GameObject:
   - component: {fileID: 1223209939}
   m_Layer: 0
   m_Name: WallColliders
-  m_TagString: Untagged
+  m_TagString: Colliders
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2101,6 +2136,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
+      objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2189,6 +2229,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
       objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}
@@ -2302,6 +2347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grass (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084770197667953195, guid: 2654267be30067742aa9e0a9889ba32d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Colliders
       objectReference: {fileID: 0}
     - target: {fileID: 3743097724887640025, guid: 2654267be30067742aa9e0a9889ba32d,
         type: 3}

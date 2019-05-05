@@ -23,13 +23,13 @@ public class GameManager : MonoBehaviour
 
     public void Respawn()
     {
-        StartCoroutine("RespawnCoroutine");
+        StartCoroutine("RespawnCoroutine");  //calls the coroutine function
     }
 
-    public IEnumerator RespawnCoroutine()
+    public IEnumerator RespawnCoroutine()    //coroutine function
     {
         Player.gameObject.SetActive(false);
-        yield return new WaitForSeconds(respawnDelay);
+        yield return new WaitForSeconds(respawnDelay);  //puts delay on player's return transform.position
         Player.transform.position = spawnPoint.transform.position;
        // gamePlayer.transform.position = gamePlayer.spawnPoint;
         Player.gameObject.SetActive(true);

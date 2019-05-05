@@ -35,10 +35,10 @@ public class TurretAI : MonoBehaviour
 
     void Update()
     {
-        anim.SetBool("Idle", idle);
+        anim.SetBool("Idle", idle);  
         anim.SetBool("LookingRight", lookingRight);
 
-        if (target.transform.position.x > transform.position.x)
+        if (target.transform.position.x > transform.position.x) //checks if player is on turrets left or right
         {
             lookingRight = false;
         }
@@ -52,6 +52,7 @@ public class TurretAI : MonoBehaviour
     void RangeCheck()
     {
         distance = Vector3.Distance(transform.position, target.transform.position);
+        //if player is a certain distance turret is idle
         if (distance < idleRange)
         {
             idle = true;
@@ -72,7 +73,9 @@ public class TurretAI : MonoBehaviour
             Vector2 direction = target.transform.position - transform.position;
             direction.Normalize();
 
-            if (AttackingRight)
+            //if attacking right its going to 'shoot' the bullet and from the transform.position of the shootpointleft
+            //bullet are projected as gameobjects, continuously shoot if player is in range
+            if (AttackingRight) 
             {
                 GameObject bulletClone;
                 bulletClone = Instantiate(bullet, shootPointLeft.transform.position, shootPointLeft.transform.rotation) as GameObject;
